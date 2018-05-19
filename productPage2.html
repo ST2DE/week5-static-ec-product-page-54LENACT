@@ -25,6 +25,11 @@
             .greytext{
                 color:grey;
             }
+            .greenbtn{
+                color:white;
+                background-color:#59e0b1;
+                font-size:13px;
+            }
             
             .greentext{
                 color:#59e0b1;
@@ -57,6 +62,15 @@
                 font-size:11pt;
                 color:black;
             }
+            .greenhr{
+                color:green;
+                width:50%;
+            }
+            
+            .GreyBG{
+            background-color:#ddddd9;
+            background-size:cover;
+        }
             
         </style>
     </header>
@@ -96,6 +110,31 @@
                  <div>
                      <a href="#"><img src="img/productmachine.png" width="300" height ="400" style="display:block; margin:auto;"></a><br>
                  </div>
+                 
+                <div class="input-group">
+                  <select class="custom-select" id="inputGroupSelect02">
+                        <option selected>請選擇數量</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        
+                  </select>
+                  <button type="button" class=" btn checkBotton greenbtn " >加入購物車</button>
+                 
+                </div>
+                <div>
+                     <a href="#"><img src="img/iconbar.png" width="300" height ="70" style="display:block; margin:auto;"></a><br>
+                 </div>
+                
+                
+    
                 <div>
                     <br>
                     <br>
@@ -220,12 +259,17 @@
                        
                     </ul>
                 </div>  
-                <hr>
-                <p class="text-center">最近瀏覽</p>
-                <hr color="green" class="text-center">
-                <hr>
-                <p class="text-center">推薦給您</p>
-                <hr color="green" class="text-center">
+                <hr width="50%" />
+                 <div>
+                     <a href="#"><img src="img/recentlybrowsed.png" width="350" height ="380" style="display:block; margin:auto;"></a><br>
+                 </div>
+                
+                <hr width="50%" />
+                
+                 <div>
+                     <a href="#"><img src="img/recommand.png" width="350" height ="380" style="display:block; margin:auto;"></a><br>
+                 </div>
+               
                 
                 
             </ul>
@@ -236,13 +280,13 @@
         
         
     </body>
-    <div id="shopify-section-newsletter" class="shopify-section shopify-section__newsletter">
+    <div id="shopify-section-newsletter" class="shopify-section shopify-section__newsletter GreyBG">
   <section class="newsletter cs-newsletterSection">
     <div class="container">
       
       
-
-<h2 class="newsletter__title text-center">訂閱電子報</h2>
+<br><br>
+<h2 class="newsletter__title text-center"><small><small><small>訂閱電子報</small></small></small></h2>
 
       
       	<div class="newsletter cs-newsletterSection-wrapper">
@@ -252,7 +296,7 @@
         <form action="//citiesocial.us1.list-manage.com/subscribe/post?u=54467090f03fe1f4d6b236860&amp;id=8c6a6e32a7" method="post" name="mc-embedded-subscribe-form" id="mc-embedded-subscribe-form" class="validate" target="_blank">
           <div class="wrap">
             <input class="email newsletter__email" type="email" name="EMAIL" placeholder="your@email.com" value="">
-            <input class="submit newsletter__submit button" name="subscribe" value="訂閱電子報" type="submit">
+            <input class="submit newsletter__submit button" name="subscribe" value="訂閱" type="submit">
           </div>
         </form>
           </div>
@@ -272,11 +316,13 @@
 
 
 </div>
-      <div id="shopify-section-footer" class="shopify-section shopify-section__footer"><footer class="footer" role="contentinfo">
+
+      <div id="shopify-section-footer" class="shopify-section shopify-section__footer GreyBG"><footer class="footer" role="contentinfo">
   <div class="inner container">
     <div class="footer__wrapper row">
       
       <section class="footer__links col-md-3 col-sm-6 col-xs-12">
+          <br><br>
         <h3 class="footer__title"><small><small><small><b>關於我們</small></small></small></b></h3>
         <ul class="footer__linklist greytext">
           <li class="footer__linklist-item">
@@ -370,46 +416,13 @@
           </li>
         </ul>
       </section>
-      
-      
-
-      
-      
     </div>
   </div>
-
-  <div class="footer__misc cs-footerMisc">
-    <div class="inner">
-      <div class="text-center cs-footerMiscContentWrapper">
-        <ul class="footer__payment-methods" style="float: none; margin: 20px auto;">
-          <li class="footer__payment-method"><svg class="icon icon-visa">
-  <use xlink:href="#icon-visa">
-    
-  </use>
-</svg></li>
-          <li class="footer__payment-method"><svg class="icon icon-mastercard">
-  <use xlink:href="#icon-mastercard">
-    
-  </use>
-</svg></li>
-          <li class="footer__payment-method"><svg class="icon icon-amex">
-  <use xlink:href="#icon-amex">
-    
-  </use>
-</svg></li>
-          <li class="footer__payment-method"><svg class="icon icon-jcb">
-  <use xlink:href="#icon-jcb">
-    
-  </use>
-</svg></li>
-        </ul>
-        <div class="greytext">
+  <hr>
+   <div class="greytext text-center">
         Copyright © 2001 - 2018, Citiesocial Co. Ltd., All Rights Reserved
         </div>
-      </div>
-      
-            
-    </div>
-  </div>
+
+  
 </footer>
 </html>
